@@ -1,0 +1,42 @@
+/*Contacto*/
+
+.input-padron {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 40%;
+}
+    
+.enviar {
+    padding: 15px 0;
+    width: 40%;
+    font-size: 18px;
+    color: #ffffff;
+    background: darkblue; 
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    transition: 2s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkcyan;
+    transform: scale(1.2);
+}
+
+.formulario {
+    padding-left: 5rem;
+
+}
+
+.form__label {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.contact__image {
+    width: 80px;
+    height: 100px;
+    padding: 3rem;
+}

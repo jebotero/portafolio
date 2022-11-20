@@ -1,0 +1,22 @@
+/*seccion habilidades*/
+
+.skills__line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skills__img {
+    height: 28px;
+    width: 28px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 480px){
+    .skills__line{
+        flex-direction: column;
+    }
+}
+    

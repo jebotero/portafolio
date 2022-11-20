@@ -1,0 +1,54 @@
+/* Formación Académica*/
+
+.academic__title, 
+.skills__title,
+.experience__section__title, 
+.hobbies__title, 
+.experience__section__title, 
+.experience__section__title,
+.sobre__mi {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.academic__courses_box {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.academic__courses__list {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0;
+}
+
+.academic__courses__item__img {
+    width: 350px;
+    padding: 20px;
+} 
+
+.academic__courses__item__title {
+    width: 300px;
+    text-align: justify;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.academic__courses__item__subtitle {
+    width: 300px;
+    text-align: justify;
+    padding: 20px;
+    font-size: 25px;
+    line-height: 1em;
+}
+
+
+@media screen and (max-width: 480px) {
+    
+.academic__courses__list {
+    flex-direction: column;
+}
+    
+}
