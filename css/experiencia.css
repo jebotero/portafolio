@@ -1,6 +1,10 @@
 /* experiencia laboral*/
+/* experiencia general */
 .experiencia {
-    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    padding: 1rem 2.5rem;
 }
 
 .experiencia__seccion__titulo, 
@@ -13,7 +17,7 @@
 }
 
 .experiencia__texto {
-    width: 940px;
+    width: 90%;
     text-align: justify;
     padding: 2rem 2rem 2rem 0;
     font-size: 25px;
@@ -22,10 +26,23 @@
 
 .experiencia__descripcion {
     display: flex;
-    flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     padding: 2rem 2rem;
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.derecha {
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .experiencia__img {
@@ -38,12 +55,14 @@
     text-decoration: none;
     padding: 10px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     background-color: #1883ba;
     color: #ffffff;
     border-radius: 10px;
     border: 2px solid #0016b0;
 }
+
+/* Experiencia en programación */
 
 .experiencia__programacion {
     display: flex;
@@ -59,50 +78,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.experience__title, 
-.experience__text {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    padding: 1rem;
-}
 
-.experiencia__botao--repo ,
-.experience__botao--demo {
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
-    font-style: 20px;
-    background-color: #1883ba;
-    color: #ffffff;
-    border-radius: 10px;
-    border: 2px solid #0016b0;
-}
+@media screen and (max-width: 480px) {  
 
-@media screen and(max-width: 480px) {  
-    .experiencia {
-        flex-direction: column;
-    }
-    
-    .experiencia__texto {
-        width: 100%;
-        text-align: justify;
-    }
-    
     .experiencia__descripcion {
         flex-direction: column;
-        font-size: 20px;
+        align-items: initial;    
     }
 
     .experiencia__img {
-        width: 100%;
-        height: 300px;
-        margin-left: 2rem;
+        width: 300px;
+        height: 200px;
+        margin-left: .5rem;
     }
 
     .experiencia__programacion {
         flex-direction: column;
-        padding: 10px;
+        align-self: center;
     }
     .experience__info {
         flex-direction: column;
@@ -113,5 +105,15 @@
     flex-direction: column;
     font-size: 20px;
     }
-    
+
+    .experiencia__boton {
+        text-decoration: none;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 15px;
+        background-color: #1883ba;
+        color: #ffffff;
+        border-radius: 10px;
+        border: 2px solid #0016b0;
+    }
 }

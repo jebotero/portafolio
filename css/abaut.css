@@ -2,8 +2,8 @@
 
 .principal {
     background: #fefefe;
-    padding: 3em 0;
-    width: 940px;
+    padding: 3em;
+    width: 70%;
     margin: auto;
 }
 
@@ -11,6 +11,7 @@
     font-size: 1.5rem;
     margin: 0 0 1em;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 

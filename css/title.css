@@ -1,20 +1,30 @@
 /*Sección Title*/
 
-.title__title {
+/*.title__title {
+    background-color: red;
     display: flex;
     flex-direction: row;
     padding: 2rem 0;
     justify-content: space-evenly;
+}*/
+
+.presentacion__principal {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .title__presentacion {
-    width: 700px;
+    width: 90%;
     text-align: justify;
     padding: 4rem;
     font-size: 25px;
 }
 
-.title__profile {
+/*.title__profile {
+    background-color: red;
     height: 200px;
     width: 200px;
     background-position: center;
@@ -29,12 +39,13 @@
 .title__subsection {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-}
+}*/
 
 .title__network {
+    width: 90%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 2rem;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
@@ -52,6 +63,10 @@
 
     .title__presentacion {
         width: 410px;
+    }
+
+    .title__network {
+        flex-direction: column;
     }
 
 }

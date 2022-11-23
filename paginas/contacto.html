@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    </link>
     <link href="https://fonts.google.com/share?selection.family=Montserrat:wght@300;400;700" rel="stylesheet">
 
     <link href="/css/reset.css" rel="stylesheet">/>
@@ -20,53 +21,71 @@
     <link href="/css/contacto.css" rel="stylesheet">/>
     <link href="/css/menu.css" rel="stylesheet">/>
     <link href="/css/title.css" rel="stylesheet">/>
-    
+
     <title>Contacto</title>
 </head>
 
 <body>
- <!-- Sección del Menú  -->
- <header class="menu__menu">
-    <section class="menu__perfil">
-        <img class="foto__perfil" src="../assets/perfil.png"></li>
-        <h1 class="nombre__perfil">Jaime Eduardo Botero Gómez</h1>
-    </section>
+    <!-- Sección del Menú  -->
+    <header class="menu__menu">
+        <section class="menu__perfil">
+            <img class="foto__perfil" src="../assets/perfil.png"></li>
+            <h1 class="nombre__perfil">Jaime Eduardo Botero Gómez</h1>
+        </section>
 
-    <section class="flex-container">
-        <div class="menu__items">
-            <a class="menu__link" href="../index.html">Inicio</a></li>
-            <a class="menu__link" href="../paginas/perfil.html">Perfil</a></li>
-            <a class="menu__link" href="../paginas/habilidades.html">Habilidades</a></li>
-            <a class="menu__link" href="../paginas/aficiones.html">Aficiones</a></li>
-            <a class="menu__link" href="../paginas/estudios.html">Formación</a></li>
-            <a class="menu__link" href="../paginas/experiencia.html">Experiencia</a></li>
-            <a class="menu__link" href="../paginas/contacto.html">Contacto</a></li>
-        </div>
-    </section>
-</header>
+        <section class="flex-container">
+            <div class="menu__items">
+                <a class="menu__link" href="../index.html">Inicio</a></li>
+                <a class="menu__link" href="../paginas/perfil.html">Perfil</a></li>
+                <a class="menu__link" href="../paginas/habilidades.html">Habilidades</a></li>
+                <a class="menu__link" href="../paginas/aficiones.html">Aficiones</a></li>
+                <a class="menu__link" href="../paginas/estudios.html">Formación</a></li>
+                <a class="menu__link" href="../paginas/experiencia.html">Experiencia</a></li>
+                <a class="menu__link" href="../paginas/contacto.html">Contacto</a></li>
+            </div>
+        </section>
+    </header>
     <!-- sección de Contacto -->
     <main>
-        <div>
-            <img class="contact__image" src="/assets/contact_image.png" alt="telefono antiguo">
-        </div>
-        <form class="formulario">
-            <label class="form__label" for="nombreapellido">Nombre y Apellido</label>
-            <input type="text" id="nombreapellido" class="input-padron" required>
+        <section>
+            <form class="formulario">
+                <label class="form__label" for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
 
-            <label class="form__label" for="correoelectronico">Correo Electrónico</label>
-            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+                <label class="form__label" for="correoelectronico">Correo Electrónico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required
+                    placeholder="email@dominio.com">
 
-            <label class="form__label" for="telefono">Teléfono</label>
-            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+                <label class="form__label" for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
 
-            <label class="form__label" for="mensaje">Mensaje</label>
-            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea> 
-           
-            
-            <input type="submit" value="Enviar formulario" class="enviar">
+                <label class="form__label" for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
 
-        </form>
 
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+            </form>
+        </section>
+
+        <section>
+            <div class="links__network">
+                <ul class="title__network">
+                    <li class="title__network__item"><a href="https://github.com/jebotero">Github <img
+                                src="/assets/arrow.png">
+                        </a></li>
+                    <li class="title__network__item"><a
+                            href="https://www.linkedin.com/in/jaime-eduardo-botero-gomez-43105a4a/">Linkedin <img
+                                src="/assets/arrow.png"></a></li>
+                    <li class="title__network__item"><a href="https://www.facebook.com/jebotero">Facebook <img
+                                src="/assets/arrow.png"></a></li>
+                    <li class="title__network__item"><a href="http://www.jebotero.com">Mi Opinión<img
+                                src="/assets/arrow.png"></a></li>
+                    <li class="title__network__item"><a href="/paginas/experiencia.html">Currículo <img
+                                src="/assets/arrow.png"></a></li>
+                </ul>
+            </div>
+        </section>
     </main>
     <footer id="footer">
         <div target="_parent" id="contenido-footer">
@@ -74,4 +93,5 @@
         </div>
     </footer>
 </body>
+
 </html>
